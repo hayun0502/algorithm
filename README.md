@@ -1,0 +1,142 @@
+# 🧠 Algorithm Solutions (Java)
+
+> 꾸준한 문제 풀이로 사고력과 구현력을 다듬는 공간입니다.  
+> **주 언어:** Java 21  
+> **보조 언어:** Python 3 (README 자동 업데이트 및 유틸 스크립트용)  
+> **목표:** Programmers → BOJ → LeetCode 단계별 확장  
+> **환경:** IntelliJ IDEA + Gradle + JUnit5
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+ ├── main/
+ │   └── java/
+ │       ├── programmers/
+ │       │   ├── level1/
+ │       │   ├── level2/
+ │       │   └── level3/
+ │       ├── boj/
+ │       │   ├── silver/
+ │       │   └── gold/
+ │       └── leetcode/
+ │           ├── easy/
+ │           └── medium/
+ └── test/
+     └── java/
+         └── programmers/
+             └── level1/
+```
+
+> 📌 **Naming Rule**
+> - `P_` = Programmers, `B_` = BOJ, `L_` = LeetCode
+> - `[문제번호]_[문제명].java` 형식
+> - 각 파일 상단에 문제 링크, 사용 알고리즘, 시간복잡도 주석 기재
+> - 테스트 코드는 동일한 패키지 경로 하위에 `*Test.java` 로 작성
+---
+
+## 🧩 Problem Comment Template
+
+```java
+/**
+ * [Programmers - Level 2] 기능개발
+ * 문제 링크: https://school.programmers.co.kr/learn/courses/30/lessons/42586
+ * 풀이 날짜: 2025.10.27
+ * 사용 알고리즘: Queue, Simulation
+ * 시간복잡도: O(N)
+ */
+```
+
+---
+
+## 🧾 Commit Convention
+
+| 타입 | 설명 | 예시 |
+|------|------|------|
+| ✨ `solve:` | 새 문제 풀이 추가 | `solve: [Programmers] 기능개발 (Level 2)` |
+| 🧩 `refactor:` | 코드 개선 | `refactor: [BOJ] 1920 수찾기 - 이진탐색 적용` |
+| 🐛 `fix:` | 버그 수정 | `fix: [Programmers] 문자열 내 p와 y의 개수` |
+| 📝 `docs:` | 문서 / README 수정 | `docs: README에 문제 목록 추가` |
+| 🚚 `chore:` | 폴더 이동, 설정 변경 | `chore: 폴더 구조 정리` |
+
+---
+
+## 🗓️ Solving Goals
+- [x] 하루 1문제 이상 풀이
+- [x] 각 풀이마다 시간복잡도 기록
+- [ ] Programmers Lv.3 → BOJ Gold 단계 진입
+- [ ] Python 보조 풀이 확장
+
+---
+
+## 🧮 Solved Topics
+
+| 분류 | 문제 수 |
+|------|------|
+| 구현 | 0    |
+| 문자열 | 0    |
+| DFS/BFS | 0    |
+| 스택/큐 | 0    |
+| DP | 0    |
+| 정렬 | 0    |
+
+---
+
+## 🔗 Problem Links
+
+| 플랫폼 | 문제 | 레벨 | 링크 |
+|---------|------|------|------|
+|  |  |  |  |
+
+
+> 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
+> ```
+> python add_problem.py
+> ```
+
+---
+
+## ⚙️ Tools & Environment
+- Java 21 (main)
+- Python 3.0 (optional: README 자동 업데이트 스크립트)
+- IntelliJ IDEA (개발 환경)
+- **Gradle**: 빌드 & 의존성 관리
+- **JUnit5**: 문제별 solution() 단위 테스트
+
+---
+
+## 🧰 Example Test (JUnit5)
+
+```java
+package programmers.level1;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+public class P_12944_평균구하기Test {
+
+    @Test
+    void testSolution() {
+        P_12944_평균구하기 s = new P_12944_평균구하기();
+        assertEquals(2.5, s.solution(new int[]{1, 2, 3, 4}));
+        assertEquals(5.3333333333, s.solution(new int[]{5, 5, 6}), 0.0001);
+    }
+}
+```
+
+---
+
+## 📈 꾸준함을 기록하기
+
+- [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub): 백준/프로그래머스 자동 업로드
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats): 언어 비율 및 커밋 기록 시각화
+- [Streak Stats](https://github.com/denvercoder1/github-readme-streak-stats): 연속 커밋 현황 표시
+- [GitHub Activity Graph](https://github.com/Ashutosh00710/github-readme-activity-graph): 커밋 활동 시각화
+---
+
+## ✨ Motivation
+> 단순히 문제를 푸는 게 아니라,  
+> **문제 해결력과 코드 품질을 함께 성장시키는 기록**을 남깁니다.  
+> 꾸준히 푼다는 건 결국 꾸준히 성장한다는 것.

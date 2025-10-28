@@ -11,29 +11,80 @@ readme_path = "README.md"
 with open(readme_path, "r", encoding="utf-8") as f:
     content = f.read()
 
-# ✅ Problem Links 섹션에 문제 추가
-pattern_links = r"(?<=\| LeetCode \| Two Sum \| Easy \| \[바로가기\]\(https:\/\/leetcode\.com\/problems\/two-sum\/\) \|)"
-insert_line = f"\n| {platform} | {problem} | {level} | [바로가기]({link}) |"
-new_content = re.sub(pattern_links, pattern_links + insert_line, content)
+#######################################
+# 1) 🔗 Problem Links 테이블 업데이트  #
+#######################################
 
-# ✅ Solved Topics 섹션 숫자 자동 +1
-pattern_topics = rf"(\| {category} \| )(\d+)( \|)"
-match = re.search(pattern_topics, new_content)
-if match:
-    old_num = int(match.group(2))
-    new_num = old_num + 1
-    new_content = re.sub(pattern_topics, f"| {category} | {new_num} |", new_content)
-    print(f"✅ '{category}' 문제 수가 {old_num} → {new_num} 로 업데이트됨!")
+# 아이디어:
+# - "## 🔗 Problem Links" 라인부터 시작
+# - 그 다음에 나오는 표 라인들만 따로 잡는다 (파이프 | 로 시작하는 줄들)
+# - 안내문 `> 💡 ...` 나오기 전까지만 테이블로 간주한다
+
+problem_links_section_pattern = r"(## 🔗 Problem Links\s*\n)([\s\S]*?)\n(?=>|\Z)"
+m = re.search(problem_links_section_pattern, content)
+
+if m:
+    section_header = m.group(1)   # "## 🔗 Problem Links\n"
+    table_block = m.group(2)      # 표 라인들만 (| ...)
+
+    # 표를 줄 단위로 나눔
+    lines = table_block.strip().splitlines()
+
+    # 새로 추가할 문제 줄
+    new_row = f"| {platform} | {problem} | {level} | [바로가기]({link}) |"
+
+    # 현재 lines 예시:
+    # 0: | 플랫폼 | 문제 | 레벨 | 링크 |
+    # 1: |---------|------|------|------|
+    # 2: | Programmers | 자릿수더하기 | Lv.1 | [바로가기](...) |
+    #
+    # → 그냥 맨 끝에 new_row append하면 됨
+    lines.append(new_row)
+
+    # 다시 합쳐
+    new_table_block = "\n".join(lines)
+
+    # content에서 기존 섹션을 새로운 섹션으로 교체
+    content = (
+        content[:m.start(1)]
+        + section_header
+        + new_table_block
+        + content[m.end(2):]  # table_block 이후부터 그대로 유지 (💡 안내문 포함)
+    )
 else:
-    print(f"⚠️ '{category}' 항목을 찾을 수 없어 업데이트하지 못했습니다.")
+    print("⚠️ Problem Links 섹션을 못 찾았습니다. README 형식을 확인하세요.")
 
-# 저장
+
+########################################
+# 2) 🧮 Solved Topics 카테고리 +1      #
+########################################
+
+topics_pattern = rf"(\| {re.escape(category)} \|\s+)(\d+)(\s+\|)"
+match_topics = re.search(topics_pattern, content)
+
+if match_topics:
+    old_num = int(match_topics.group(2))
+    new_num = old_num + 1
+    content = re.sub(
+        topics_pattern,
+        rf"\g<1>{new_num}\g<3>",
+        content
+    )
+    print(f"✅ '{category}' 문제 수 {old_num} → {new_num}")
+else:
+    print(f"⚠️ '{category}' 카테고리를 찾을 수 없습니다. (Solved Topics 표에서 이름 정확히 같아야 함)")
+
+
+########################################
+# 3) README 저장 + git push            #
+########################################
+
 with open(readme_path, "w", encoding="utf-8") as f:
-    f.write(new_content)
+    f.write(content)
 
-# git 자동 반영
+commit_msg = f'docs: add {problem} ({platform}) and update {category} count'
 os.system('git add README.md')
-os.system(f'git commit -m "docs: add {problem} ({platform}) and update {category} count"')
+os.system(f'git commit -m "{commit_msg}"')
 os.system('git push')
 
-print(f"🚀 {problem} 추가 및 GitHub 반영 완료!")
+print("🚀 README 업데이트 및 push 완료!")

@@ -89,6 +89,7 @@ src/
 |---------|------|------|------|
 | Programmers | 자릿수더하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12931) |
 | Programmers | 자연수 뒤집어 배열로 만들기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) |
+| Programmers | 짝수와 홀수 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12937) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

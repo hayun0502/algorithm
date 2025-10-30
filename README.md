@@ -76,7 +76,7 @@ src/
 | 분류 | 문제 수 |
 |------|------|
 | 구현 | 6    |
-| 문자열 | 0    |
+| 문자열 | 1    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
 | DP | 0    |
@@ -93,6 +93,7 @@ src/
 | Programmers | 나머지가 1이 되는 수 찾기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/87389) |
 | Programmers | 문자열을 정수로 바꾸기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12925) |
 | Programmers | 약수의 합 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12928) |
+| Programmers | 서울에서 김서방 찾기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12919) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

@@ -76,7 +76,7 @@ src/
 | 분류 | 문제 수 |
 |------|------|
 | 구현 | 7    |
-| 문자열 | 2    |
+| 문자열 | 3    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
 | DP | 0    |
@@ -96,6 +96,7 @@ src/
 | Programmers | 서울에서 김서방 찾기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12919) |
 | Programmers | 없는 숫자 더하기 | :Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86051) |
 | Programmers | 가운데 글자 가져오기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12903) |
+| Programmers | 수박수박수박수박수박수? | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12922) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

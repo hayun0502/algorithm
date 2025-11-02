@@ -75,7 +75,7 @@ src/
 
 | 분류 | 문제 수 |
 |------|------|
-| 구현 | 9    |
+| 구현 | 10    |
 | 문자열 | 3    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
@@ -99,6 +99,7 @@ src/
 | Programmers | 수박수박수박수박수박수? | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12922) |
 | Programmers | 푸드 파이트 대회 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/134240) |
 | Programmers | 같은 숫자는 싫어 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12906) |
+| Programmers | 삼총사 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/131705) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

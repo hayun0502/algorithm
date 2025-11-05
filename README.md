@@ -76,7 +76,7 @@ src/
 | 분류 | 문제 수 |
 |------|------|
 | 구현 | 14    |
-| 문자열 | 3    |
+| 문자열 | 4    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
 | DP | 0    |
@@ -104,6 +104,7 @@ src/
 | Programmers | 약수의 개수와 덧셈 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/77884) |
 | Programmers | 음양 구하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/76501) |
 | Programmers | 부족한 금액 계산하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/82612) |
+| Programmers | 문자열 내림차순으로 배치하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12917) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

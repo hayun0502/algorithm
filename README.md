@@ -76,7 +76,7 @@ src/
 | 분류 | 문제 수 |
 |------|------|
 | 구현 | 17    |
-| 문자열 | 7    |
+| 문자열 | 8    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
 | DP | 0    |
@@ -111,6 +111,7 @@ src/
 | Programmers | 이상한 문자 만들기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12930) |
 | Programmers | 가장 가까운 같은 글자 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/142086) |
 | Programmers | 크기가 작은 부분문자열 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/147355) |
+| Programmers | 신규 아이디 추천 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/72410) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

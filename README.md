@@ -75,7 +75,7 @@ src/
 
 | 분류 | 문제 수 |
 |------|------|
-| 구현 | 21    |
+| 구현 | 22    |
 | 문자열 | 8    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
@@ -116,6 +116,7 @@ src/
 | Programmers | 예산 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12982) |
 | Programmers | 최소직사각형 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/86491) |
 | Programmers | 행렬의 덧셈 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12950) |
+| Programmers | 폰켓몬 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

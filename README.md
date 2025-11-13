@@ -76,7 +76,7 @@ src/
 | 분류 | 문제 수 |
 |------|------|
 | 구현 | 23    |
-| 문자열 | 8    |
+| 문자열 | 9    |
 | DFS/BFS | 0    |
 | 스택/큐 | 0    |
 | DP | 0    |
@@ -118,6 +118,7 @@ src/
 | Programmers | 행렬의 덧셈 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12950) |
 | Programmers | 폰켓몬 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/1845) |
 | Programmers | 두 개 뽑아서 더하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/68644) |
+| Programmers | 문자열 내 마음대로 정렬하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12915) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

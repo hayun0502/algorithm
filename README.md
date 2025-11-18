@@ -75,7 +75,7 @@ src/
 
 | 분류 | 문제 수 |
 |------|------|
-| 구현 | 25    |
+| 구현 | 26    |
 | 문자열 | 9    |
 | DFS/BFS | 0    |
 | 스택/큐 | 1    |
@@ -122,6 +122,7 @@ src/
 | Programmers | 전화번호 목록 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
 | Programmers | 최댓값과 최솟값 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12939) |
 | Programmers | 올바른 괄호 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42577) |
+| Programmers | 나누어 떨어지는 숫자 배열 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12910) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

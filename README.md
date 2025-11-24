@@ -78,7 +78,7 @@ src/
 | 구현 | 28    |
 | 문자열 | 10    |
 | DFS/BFS | 0    |
-| 스택/큐 | 4    |
+| 스택/큐 | 5    |
 | DP | 0    |
 | 정렬 | 0    |
 
@@ -129,6 +129,7 @@ src/
 | Programmers | 카드 뭉치 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994) |
 | Programmers | 명예의 전당(1) | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477) |
 | Programmers | 더 맵게 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42626) |
+| BOJ | 최소 힙 | Silver 2 | [바로가기](https://www.acmicpc.net/problem/1927) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

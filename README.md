@@ -78,7 +78,7 @@ src/
 | 구현 | 28    |
 | 문자열 | 10    |
 | DFS/BFS | 0    |
-| 스택/큐 | 2    |
+| 스택/큐 | 3    |
 | DP | 0    |
 | 정렬 | 0    |
 
@@ -127,6 +127,7 @@ src/
 | Programmers | 두 정수 사이의 합 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12912) |
 | Programmers | 정수 내림차순으로 배치하기 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/12933) |
 | Programmers | 카드 뭉치 | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/159994) |
+| Programmers | 명예의 전당(1) | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py

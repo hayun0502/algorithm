@@ -80,7 +80,7 @@ src/
 | DFS/BFS | 0    |
 | 스택/큐 | 5    |
 | DP | 0    |
-| 정렬 | 0    |
+| 정렬 | 1    |
 
 ---
 
@@ -130,6 +130,7 @@ src/
 | Programmers | 명예의 전당(1) | Lv.1 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138477) |
 | Programmers | 더 맵게 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/42626) |
 | BOJ | 최소 힙 | Silver 2 | [바로가기](https://www.acmicpc.net/problem/1927) |
+| Programmers | 귤 고르기 | Lv.2 | [바로가기](https://school.programmers.co.kr/learn/courses/30/lessons/138476) |
 > 💡 `add_problem.py` 스크립트를 실행하면 새 문제 정보가 이 표에 자동으로 추가됩니다.
 > ```
 > python add_problem.py
